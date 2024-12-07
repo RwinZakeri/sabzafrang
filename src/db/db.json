@@ -1,0 +1,110 @@
+{
+  "header": [
+    {
+      "id": 1,
+      "title": "صفحه نخست",
+      "linkAddress": "/"
+    },
+    {
+      "id": 2,
+      "title": "خدمات",
+      "subMenu": [
+        {
+          "id": 123,
+          "title": "استراتژی",
+          "linkAddress": "/strategy"
+        },
+        {
+          "id": 124,
+          "title": "طراحی برند",
+          "linkAddress": "/brand-design"
+        },
+        {
+          "id": 125,
+          "title": "روابط عمومی",
+          "linkAddress": "/public-relations"
+        },
+        {
+          "id": 126,
+          "title": "تولیدات رسانه ای",
+          "linkAddress": "/media-production"
+        },
+        {
+          "id": 127,
+          "title": "کمپین های تبلیغاتی",
+          "linkAddress": "/advertising-campaigns"
+        },
+        {
+          "id": 128,
+          "title": "خلاقیت و تولید محتوا",
+          "linkAddress": "/creativity-content-production"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "نمونه کارها",
+      "linkAddress": "/portfolio"
+    },
+    {
+      "id": 4,
+      "title": "آلبوم عکس",
+      "linkAddress": "/photo-gallery"
+    },
+    {
+      "id": 5,
+      "title": "درباره ما",
+      "subMenu": [
+        {
+          "id": 123,
+          "title": "استراتژی",
+          "linkAddress": "/strategy"
+        },
+        {
+          "id": 124,
+          "title": "طراحی برند",
+          "linkAddress": "/brand-design"
+        },
+        {
+          "id": 125,
+          "title": "روابط عمومی",
+          "linkAddress": "/public-relations"
+        },
+        {
+          "id": 126,
+          "title": "تولیدات رسانه ای",
+          "linkAddress": "/media-production"
+        },
+        {
+          "id": 127,
+          "title": "کمپین های تبلیغاتی",
+          "linkAddress": "/advertising-campaigns"
+        },
+        {
+          "id": 128,
+          "title": "خلاقیت و تولید محتوا",
+          "linkAddress": "/creativity-content-production"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "ارتباط با ما",
+      "linkAddress": "/contact-us"
+    }
+  ],
+  "swiper": [
+    {
+      "id": 1,
+      "imgPath": "/images/swiper/bank-shaher.jpg"
+    },
+    {
+      "id": 2,
+      "imgPath": "/images/swiper/bime-alborz.jpg"
+    },
+    {
+      "id": 3,
+      "imgPath": "/images/swiper/bug.jpg"
+    }
+  ]
+}
