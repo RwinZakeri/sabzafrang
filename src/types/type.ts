@@ -4,7 +4,7 @@ interface SubMenu {
   linkAddress: string; // linkAddress for submenus
 }
 
-interface HeaderItem {
+export interface HeaderItem {
   id: number;
   title: string;
   linkAddress?: string; // linkAddress is optional for main menu items with submenus

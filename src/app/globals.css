@@ -16,8 +16,11 @@ html {
   .headerActive {
     @apply bg-primaryGreen text-white; /* Ensures text color is white when headerActive is applied */
   }
-}
 
+  .container {
+    @apply max-w-[1280px] mx-auto;
+  }
+}
 
 /* swiper */
 
