@@ -106,5 +106,166 @@
       "id": 3,
       "imgPath": "/images/swiper/bug.jpg"
     }
+  ],
+  "service": [
+    {
+      "id": 1,
+      "title": "خلاقیت و تولید محتوا",
+      "imgAddress": "/images/service/Artboard.png",
+      "features": [
+        {
+          "id": 123,
+          "description": "طراحی خلاقانه و بصری"
+        },
+        {
+          "id": 124,
+          "description": "کپی‌رایتینگ"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "کمپین تبلیغاتی",
+      "imgAddress": "/images/service/campain.png",
+      "features": [
+        {
+          "id": 120,
+          "description": "کمپین‌های بازاریابی"
+        },
+        {
+          "id": 121,
+          "description": "کمپین‌های 360 درجه"
+        },
+        {
+          "id": 122,
+          "description": "کمپین‌های روابط عمومی"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "تولید رسانه",
+      "imgAddress": "/images/service/social.png",
+      "features": [
+        {
+          "id": 120,
+          "description": "کمپین‌های بازاریابی"
+        },
+        {
+          "id": 121,
+          "description": "کمپین‌های 360 درجه"
+        },
+        {
+          "id": 122,
+          "description": "کمپین‌های روابط عمومی"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "روابط عمومی",
+      "imgAddress": "/images/service/Public-Relationsicinhomepageen.png",
+      "features": [
+        {
+          "id": 123,
+          "description": "رویدادهای بازاریابی"
+        },
+        {
+          "id": 124,
+          "description": "پوشش خبری"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "طراحی برند",
+      "imgAddress": "/images/service/goalSibl.png",
+      "features": [
+        {
+          "id": 125,
+          "description": "نام برند"
+        },
+        {
+          "id": 126,
+          "description": "تدوین استراتژی برند"
+        },
+        {
+          "id": 127,
+          "description": "تدوین استراتژی برند"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "تدوین استراتژی",
+      "imgAddress": "/images/service/bPlaneee.png",
+      "features": [
+        {
+          "id": 128,
+          "description": "تحقیقات برند"
+        },
+        {
+          "id": 129,
+          "description": "جایگاه‌یابی برند"
+        },
+        {
+          "id": 130,
+          "description": "استراتژی بازاریابی"
+        },
+        {
+          "id": 131,
+          "description": "استراتژی رسانه‌ای"
+        },
+        {
+          "id": 132,
+          "description": "استراتژی محتوا"
+        },
+        {
+          "id": 133,
+          "description": "داستان‌سرایی و تدوین"
+        },
+        {
+          "id": 134,
+          "description": "پیام اصلی برند"
+        }
+      ]
+    }
+  ],
+  "latestResume": [
+    {
+      "id": 1,
+      "title": "آخرین رزومه 1",
+      "videoSource": "https://www.aparat.com/v/SeWZX"
+    },
+    {
+      "id": 2,
+      "title": "آخرین رزومه 2",
+      "videoSource": "https://www.aparat.com/v/K0uJ9"
+    },
+    {
+      "id": 3,
+      "title": "آخرین رزومه 3",
+      "videoSource": "https://www.aparat.com/v/nX0H7"
+    },
+    {
+      "id": 4,
+      "title": "آخرین رزومه 4",
+      "videoSource": "https://www.aparat.com/v/F3XU8"
+    },
+    {
+      "id": 5,
+      "title": "آخرین رزومه 5",
+      "videoSource": "https://www.aparat.com/v/YG9P2"
+    },
+    {
+      "id": 6,
+      "title": "آخرین رزومه 6",
+      "videoSource": "https://www.aparat.com/v/KJ9F8"
+    },
+    {
+      "id": 7,
+      "title": "آخرین رزومه 7",
+      "videoSource": "https://www.aparat.com/v/D2J8N"
+    }
   ]
 }

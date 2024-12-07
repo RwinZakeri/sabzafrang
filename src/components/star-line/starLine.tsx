@@ -2,7 +2,7 @@ import star from "@/assets/images/icon/starsabz.png";
 import Image from "next/image";
 const StarLine = ({ title }: { title: string }) => {
   return (
-    <div className="w-full items-center justify-between container flex h-12 py-6">
+    <div className="my-12 w-full items-center justify-between container flex h-12 py-6">
       <div className="w-2/5 h-1 bg-primaryGreen relative rounded-full">
         <Image
           src={star}

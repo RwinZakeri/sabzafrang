@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         textGary: "var(--text-gray)",
+        textPurple: "var(--primatyPurple)",
         primaryGreen: "var(--primar-green)",
         primaryWhite: "var(--primay-white)",
       },

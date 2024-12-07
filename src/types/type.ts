@@ -21,3 +21,28 @@ export interface homeSwiper {
   imgPath: string;
 }
 
+// service
+
+export interface Feature {
+  id: number;
+  description: string;
+}
+
+export interface Service {
+  id: number;
+  title: string;
+  imgAddress: string;
+  features: Feature[];
+}
+
+// video grid
+
+// Assuming the type is defined in "@/types/type"
+export interface VideoItem {
+  id: number;
+  title: string;
+  videoSource: string;
+}
+
+// Adjust to accept an array of VideoItem directly
+export type LatestResumeData = VideoItem[];

@@ -1,5 +1,8 @@
-import StarLine from "@/ui/star-line/starLine";
+import ServiceParent from "@/components/(service)/ServiceParent";
+import VideoGrid from "@/components/(videoGrid)/videoGrid";
+import StarLine from "@/components/star-line/starLine";
 import SwiperComponent from "../components/(swiper)/homeSwiper/swiperParent";
+import VideoContainer from "./(containers)/videoGrid/videoContainer";
 
 // start
 
@@ -8,6 +11,9 @@ const Home = () => {
     <>
       <SwiperComponent />
       <StarLine title={"خدمات ما"} />
+      <ServiceParent />
+      <StarLine title={"آخرین نمونه کارها"} />
+      <VideoContainer/>
     </>
   );
 };
