@@ -8,12 +8,12 @@ import Link from "next/link";
 const ServiceParent = () => {
   const service: Service[] = db.service; // service is an array of Service objects
   return (
-    <div className="w-full container flex flex-row-reverse">
+    <div className="w-full container  md:gap-y-0 flex flex-row-reverse flex-wrap lg:flex-nowrap items-center justify-center">
       {service?.map((item) => (
         <Link
           href={"/"}
           key={item.id}
-          className="w-56 h-72 relative flex group items-center justify-center"
+          className="w-1/2  md:w-56 h-72 relative flex group items-center justify-center"
         >
           <div className="w-full h-full absolute group-hover:opacity-100 opacity-0 transition-all duration-500 ease-linear bg-primaryGreen flex flex-col justify-center items-start">
             {item?.features?.map((sub: Feature) => (

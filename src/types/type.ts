@@ -42,6 +42,7 @@ export interface VideoItem {
   id: number;
   title: string;
   videoSource: string;
+  videoThumbnail: string;
 }
 
 // Adjust to accept an array of VideoItem directly

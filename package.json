@@ -12,6 +12,7 @@
     "next": "14.2.18",
     "react": "^18",
     "react-dom": "^18",
+    "react-modal": "^3.16.1",
     "sharp": "^0.33.5",
     "swiper": "^11.1.15"
   },
@@ -19,6 +20,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-modal": "^3.16.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.18",
     "postcss": "^8",

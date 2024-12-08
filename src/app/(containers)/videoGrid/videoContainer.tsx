@@ -1,6 +1,7 @@
 import VideoGrid from "@/components/(videoGrid)/videoGrid";
 import db from "@/db/db.json";
 import { LatestResumeData } from "@/types/type";
+import GreenButton from "@/ui/button/greenButton";
 
 // Correct the component to pass data to VideoGrid
 const VideoContainer = () => {
@@ -8,7 +9,10 @@ const VideoContainer = () => {
   const latestResume: LatestResumeData = db.latestResume;
 
   return (
+    <>
       <VideoGrid latestResume={latestResume} />
+      <GreenButton title="نمونه کارهای بیشتر" path={"/"} />
+    </>
   );
 };
 
