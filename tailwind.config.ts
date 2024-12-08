@@ -15,6 +15,10 @@ const config: Config = {
         primaryGreen: "var(--primar-green)",
         primaryWhite: "var(--primay-white)",
       },
+      backgroundImage: {
+        "tadvin-strategy": "url('/images/strategy/strategy2-1-scaled.webp')",
+        "footer-texture": "url('/img/footer-texture.png')",
+      },
     },
   },
   plugins: [],
