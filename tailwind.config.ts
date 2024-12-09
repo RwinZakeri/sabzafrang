@@ -14,6 +14,10 @@ const config: Config = {
         primaryGreen: "var(--primar-green)",
         primaryWhite: "var(--primay-white)",
       },
+      backgroundImage: {
+        'layer1': "url('/src/assets/images/aboutUs/Layer-1.png')",
+        
+      }
     },
   },
   plugins: [],
