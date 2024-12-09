@@ -4,10 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 const PhotoComponents = () => {
   return (
-    <div className="container">
+    <div className="">
       <div>
         <div className="flex py-5">
-          <h4 className="w-full text-center before:border before:w-[30%] before:ml-[15px] before:inline-block before:border-[#17AA8F] after:border after:border-[#17AA8F] after:mr-[15px] after:w-[30%] after:inline-block ">
+          <h4 className="w-full text-center before:border before:w-[40%] before:ml-[15px] before:inline-block before:border-[#17AA8F] after:border after:border-[#17AA8F] after:mr-[15px] after:w-[40%] after:inline-block ">
             نوزدهمین نمایشگاه بین المللی صنعت ساختمان
           </h4>
         </div>
