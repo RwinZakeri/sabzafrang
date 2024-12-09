@@ -54,7 +54,7 @@
     {
       "id": 5,
       "title": "درباره ما",
-      "linkAddress": "aboutus"
+      "linkAddress": "/aboutus"
     },
     {
       "id": 6,
