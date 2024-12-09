@@ -1,6 +1,6 @@
-import Image from "next/image";
 import image1_1 from "@/assets/images/photoAlbum/image1-1.png";
 import image2_1 from "@/assets/images/photoAlbum/image2-1.png";
+import Image from "next/image";
 import Link from "next/link";
 const PhotoComponents = () => {
   return (

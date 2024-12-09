@@ -16,9 +16,7 @@ const config: Config = {
         primaryWhite: "var(--primay-white)",
       },
       backgroundImage: {
-        'layer1': "url('/src/assets/images/aboutUs/Layer-1.png')",
-        
-      }
+        layer1: "url('/src/assets/images/aboutUs/Layer-1.png')",
         "tadvin-strategy": "url('/images/strategy/strategy2-1-scaled.webp')",
         "footer-texture": "url('/img/footer-texture.png')",
       },
@@ -26,4 +24,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
