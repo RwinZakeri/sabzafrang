@@ -231,7 +231,7 @@ const VueIco = () => {
   );
 };
 
-const CirculIcon = ({width, height} : {width : number , height : number}) => {
+const CirculIcon = ({ width, height }: { width: number; height: number }) => {
   return (
     <svg
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -251,6 +251,94 @@ const CirculIcon = ({width, height} : {width : number , height : number}) => {
   );
 };
 
+const EmailIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={20}
+      height={20}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="icon icon-tabler icons-tabler-outline icon-tabler-mail text-[green]"
+      color="#36A88D"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+      <path d="M3 7l9 6l9 -6" />
+    </svg>
+  );
+};
+const InstagramIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={20}
+      height={20}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"
+      color="#36A88D"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+      <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+      <path d="M16.5 7.5v.01" />
+    </svg>
+  );
+};
+const LinkdinIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={20}
+      height={20}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"
+      color="#36A88D"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M8 11v5" />
+      <path d="M8 8v.01" />
+      <path d="M12 16v-5" />
+      <path d="M16 16v-3a2 2 0 1 0 -4 0" />
+      <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
+    </svg>
+  );
+};
+const TelePhoneIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={20}
+      height={20}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="icon icon-tabler icons-tabler-outline icon-tabler-phone"
+      color="#36A88D"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+    </svg>
+  );
+};
+
 export {
   ArrowTop,
   BigTelePhoneIco,
@@ -266,4 +354,8 @@ export {
   TelePhoneIco,
   VueIco,
   YoutubeIco,
+  EmailIcon,
+  InstagramIcon,
+  LinkdinIcon,
+  TelePhoneIcon
 };

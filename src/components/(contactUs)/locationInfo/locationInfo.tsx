@@ -1,3 +1,4 @@
+import { EmailIcon, InstagramIcon, LinkdinIcon, TelePhoneIcon } from "@/assets/icon/svgExporte";
 import Link from "next/link";
 
 const LocationInfo = () => {
@@ -6,17 +7,22 @@ const LocationInfo = () => {
       <div className="flex md:flex-row flex-col gap-x-5 justify-center items-center">
         <div className="md:w-[40%] w-full">
           <ul className="flex flex-col justify-center md:items-end items-end gap-y-6 pl-5">
-            <li className="text-[#54595F] text-[20px] font-bold">
+            <li className="text-[#54595F] text-[20px] font-bold flex gap-x-3">
               <Link href="">info@sabzafrang.com</Link>
+              <span className="p-1 border-[2px] border-[#36A88D] rounded-[50%]"> <EmailIcon/></span>
             </li>
-            <li className="text-[#54595F] text-[20px] font-bold">
+            <li className=" text-[#54595F] text-[20px] font-bold flex gap-x-3">
+            
               sabzafrangfilm
+              <span className="p-1 border-[2px] border-[#36A88D] rounded-[50%]"> <InstagramIcon/></span>
             </li>
-            <li className="text-[#54595F] text-[20px] font-bold">
+            <li className="text-[#54595F] text-[20px] font-bold flex gap-x-3">
               sabzafrangfilm
+              <span className="p-1 border-[2px] border-[#36A88D] rounded-[50%]"> <LinkdinIcon/></span>
             </li>
-            <li className="text-[#54595F] text-[20px] font-bold">
+            <li className="text-[#54595F] text-[20px] font-bold flex gap-x-3">
               021-44844230-1
+              <span className="p-1 border-[2px] border-[#36A88D] rounded-[50%]"> <TelePhoneIcon/></span>
             </li>
             <h6>
               نیـایش، ابتـدای سردار جنـگـل شـمالی،
