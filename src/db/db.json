@@ -205,37 +205,148 @@
       "id": 1,
       "title": "آخرین رزومه 1",
       "videoSource": "https://www.aparat.com/v/aevyx0b",
-      "videoThumbnail": "/images/videoThumbnail/alidayi.png"
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 1"
     },
     {
       "id": 2,
       "title": "آخرین رزومه 2",
-      "videoSource": "https://caspian18.asset.aparat.com/aparat-video/a4fe21cd0821679dc789a8557e2ee67e62020465-240p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjRiNWZhNzQyMjdiNjJlZGExMDY2YWVjMjliOTI2ZTdkIiwiZXhwIjoxNzMzNjMzMDQ4LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.9UTl9XJxYjFPS1jBD-YrT_WSvQ7Sk-E5apdrFU4rqu4",
-      "videoThumbnail": "/images/videoThumbnail/alidayi.png"
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 2"
     },
     {
       "id": 3,
       "title": "آخرین رزومه 3",
-      "videoSource": "https://caspian18.asset.aparat.com/aparat-video/a4fe21cd0821679dc789a8557e2ee67e62020465-240p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjRiNWZhNzQyMjdiNjJlZGExMDY2YWVjMjliOTI2ZTdkIiwiZXhwIjoxNzMzNjMzMDQ4LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.9UTl9XJxYjFPS1jBD-YrT_WSvQ7Sk-E5apdrFU4rqu4",
-      "videoThumbnail": "/images/videoThumbnail/alidayi.png"
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 1"
     },
     {
       "id": 4,
       "title": "آخرین رزومه 4",
-      "videoSource": "https://caspian18.asset.aparat.com/aparat-video/a4fe21cd0821679dc789a8557e2ee67e62020465-240p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjRiNWZhNzQyMjdiNjJlZGExMDY2YWVjMjliOTI2ZTdkIiwiZXhwIjoxNzMzNjMzMDQ4LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.9UTl9XJxYjFPS1jBD-YrT_WSvQ7Sk-E5apdrFU4rqu4",
-      "videoThumbnail": "/images/videoThumbnail/alidayi.png"
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 3"
     },
     {
       "id": 5,
       "title": "آخرین رزومه 5",
-      "videoSource": "https://caspian18.asset.aparat.com/aparat-video/a4fe21cd0821679dc789a8557e2ee67e62020465-240p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjRiNWZhNzQyMjdiNjJlZGExMDY2YWVjMjliOTI2ZTdkIiwiZXhwIjoxNzMzNjMzMDQ4LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.9UTl9XJxYjFPS1jBD-YrT_WSvQ7Sk-E5apdrFU4rqu4",
-      "videoThumbnail": "/images/videoThumbnail/alidayi.png"
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 2"
     },
     {
       "id": 6,
       "title": "آخرین رزومه 6",
-      "videoSource": "https://caspian18.asset.aparat.com/aparat-video/a4fe21cd0821679dc789a8557e2ee67e62020465-240p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjRiNWZhNzQyMjdiNjJlZGExMDY2YWVjMjliOTI2ZTdkIiwiZXhwIjoxNzMzNjMzMDQ4LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.9UTl9XJxYjFPS1jBD-YrT_WSvQ7Sk-E5apdrFU4rqu4",
-      "videoThumbnail": "/images/videoThumbnail/alidayi.png"
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 1"
+    },
+    {
+      "id": 7,
+      "title": "آخرین رزومه 7",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 3"
+    },
+    {
+      "id": 8,
+      "title": "آخرین رزومه 8",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 2"
+    },
+    {
+      "id": 9,
+      "title": "آخرین رزومه 9",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 1"
+    },
+    {
+      "id": 10,
+      "title": "آخرین رزومه 10",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 4"
+    },
+    {
+      "id": 11,
+      "title": "آخرین رزومه 11",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 1"
+    },
+    {
+      "id": 12,
+      "title": "آخرین رزومه 12",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 3"
+    },
+    {
+      "id": 13,
+      "title": "آخرین رزومه 13",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 2"
+    },
+    {
+      "id": 14,
+      "title": "آخرین رزومه 14",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 1"
+    },
+    {
+      "id": 15,
+      "title": "آخرین رزومه 15",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 4"
+    },
+    {
+      "id": 16,
+      "title": "آخرین رزومه 16",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 2"
+    },
+    {
+      "id": 17,
+      "title": "آخرین رزومه 17",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 1"
+    },
+    {
+      "id": 18,
+      "title": "آخرین رزومه 18",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 3"
+    },
+    {
+      "id": 19,
+      "title": "آخرین رزومه 19",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 2"
+    },
+    {
+      "id": 20,
+      "title": "آخرین رزومه 20",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 4"
+    },
+    {
+      "id": 21,
+      "title": "آخرین رزومه 21",
+      "videoSource": "https://www.aparat.com/v/aevyx0b",
+      "videoThumbnail": "/images/videoThumbnail/alidayi.png",
+      "category": "Category 1"
     }
   ]
 }

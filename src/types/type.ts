@@ -43,7 +43,16 @@ export interface VideoItem {
   title: string;
   videoSource: string;
   videoThumbnail: string;
+  category: string;
 }
 
 // Adjust to accept an array of VideoItem directly
 export type LatestResumeData = VideoItem[];
+
+
+// category
+export interface categoryType {
+  searchParams: {
+    category: string;
+  };
+}
