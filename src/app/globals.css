@@ -21,6 +21,13 @@ html {
   .container {
     @apply max-w-[1280px] mx-auto;
   }
+  .textContainer {
+    /* @apply max-w-[780px] mx-auto; */
+    @apply w-4/6 mx-auto;
+  }
+  .textStyle{
+    @apply w-full md:w-4/5 text-justify textContainer leading-8 font-bold text-textGary;
+  }
 }
 
 /* swiper */
