@@ -27,17 +27,17 @@
         {
           "id": 126,
           "title": "تولیدات رسانه ای",
-          "linkAddress": "/media-production"
+          "linkAddress": "/documentary-reportage"
         },
         {
           "id": 127,
           "title": "کمپین های تبلیغاتی",
-          "linkAddress": "/advertising-campaigns"
+          "linkAddress": "/digital-marketing"
         },
         {
           "id": 128,
           "title": "خلاقیت و تولید محتوا",
-          "linkAddress": "/creativity-content-production"
+          "linkAddress": "/animation"
         }
       ]
     },
@@ -59,7 +59,7 @@
     {
       "id": 6,
       "title": "ارتباط با ما",
-      "linkAddress": "/contact-us"
+      "linkAddress": "/contactUs"
     }
   ],
   "swiper": [

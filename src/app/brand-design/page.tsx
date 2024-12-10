@@ -98,12 +98,12 @@ const Branding = () => {
         </p>
       </div>
       {/* design */}
-      <div className="w-4/5 mx-auto flex gap-5 my-20">
-        <div className="w-1/4">
+      <div className="w-full md:w-4/5 mx-auto flex gap-5 my-20">
+        <div className="w-1/4 hidden md:block">
           <Image src={desginImage} alt="design" />
           <Image src={starImage} alt="design" className="mt-36" />
         </div>
-        <div className="w-4/5 -mt-16">
+        <div className="w-full md:w-4/5 -mt-16">
           <Image src={earthImage} alt="design" className="" />
           <p className="textStyle w-full m-0 mt-5">
             تیم ما برای شناخت اولیه برند، با افراد آشنا با برند مصاحبه کرده و

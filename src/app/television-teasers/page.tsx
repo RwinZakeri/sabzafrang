@@ -13,7 +13,7 @@ const TelevisionTeasers = () => {
       <div className="w-full h-[111px] md:h-[500px] bg-television-teasers bg-contain md:bg-cover bg-no-repeat bg-center"></div>
       <div className="container">
         {/* public relation */}
-        <p className="textStyle w-full px-4 md:w-4/5  md:-mt-8">
+        <p className="textStyle w-full px-4 md:w-4/5  md:-mt-0 mb-12">
           دپارتمان روابط عمومی سبز افرنگ فیلم برای ارتقای برند مشتریان، فروش و
           کسب نتیجه طراحی شده است. ما برنامه‌های فعالی را برای روابط عمومی
           پیاده‌سازی کرده و طیف گسترده‌ای از خدمات بازاریابی یکپارچه، برای رفع
