@@ -13,6 +13,7 @@ const Drawer = ({ isShow }: { isShow: boolean }) => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+
     setIsMounted(true); // Set to true after component mounts
   }, []);
 
@@ -26,7 +27,7 @@ const Drawer = ({ isShow }: { isShow: boolean }) => {
   return (
     <nav
       className={`${
-        isShow ? "block absolute z-[999]" : "hidden"
+        isShow ? "block absolute z-[999] " : "hidden"
       } w-full bg-gray-100 left-0 top-full`}
     >
       {header?.map((head) => (
@@ -67,8 +68,7 @@ const Drawer = ({ isShow }: { isShow: boolean }) => {
                 <div
                   key={subMenu.id}
                   className={`bg-primaryWhite text-textGary ${
-                    path === subMenu?.linkAddress &&
-                    "bg-primaryGreen text-white"
+                    path === subMenu?.linkAddress && "bg-[#17aa8f] text-white"
                   } `}
                 >
                   <p className="px-5 py-2 w-full">

@@ -8,36 +8,37 @@
     {
       "id": 2,
       "title": "خدمات",
+
       "subMenu": [
         {
           "id": 123,
           "title": "استراتژی",
-          "linkAddress": "/strategy"
+          "linkAddress": "/industries/strategy"
         },
         {
           "id": 124,
           "title": "طراحی برند",
-          "linkAddress": "/brand-design"
+          "linkAddress": "/industries/brand-design"
         },
         {
           "id": 125,
           "title": "روابط عمومی",
-          "linkAddress": "/television-teasers"
+          "linkAddress": "/industries/television-teasers"
         },
         {
           "id": 126,
           "title": "تولیدات رسانه ای",
-          "linkAddress": "/documentary-reportage"
+          "linkAddress": "/industries/documentary-reportage"
         },
         {
           "id": 127,
           "title": "کمپین های تبلیغاتی",
-          "linkAddress": "/digital-marketing"
+          "linkAddress": "/industries/digital-marketing"
         },
         {
           "id": 128,
           "title": "خلاقیت و تولید محتوا",
-          "linkAddress": "/animation"
+          "linkAddress": "/industries/animation"
         }
       ]
     },

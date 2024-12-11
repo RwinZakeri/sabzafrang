@@ -54,3 +54,31 @@ html {
   height: 100%;
   object-fit: cover;
 }
+
+
+.swiper-button-prev, .swiper-button-next {
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%);
+  transform: translateX(-50px);
+  z-index: 10;
+  border-radius: 100%;
+  font-size: 15px;
+  width: 15px;
+
+  &::after {
+    content: ''; 
+    font-size: 24px;
+    color: #1ccaaa;
+    background-color: #2e6b6054;
+    padding: 7px 13px;
+    border-radius: 100%;
+  }
+}
+
+
+
+.swiper-button-next{
+  transform: translateX(50px);
+
+}

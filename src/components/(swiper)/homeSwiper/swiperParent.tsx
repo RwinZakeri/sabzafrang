@@ -1,7 +1,8 @@
 "use client";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css/pagination";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../../app/globals.css";
 
@@ -16,9 +17,15 @@ const SwiperComponent = () => {
   return (
     <div>
       <Swiper
-        pagination={true}
         navigation={true}
-        modules={[Navigation, Pagination]}
+        freeMode={true}
+        loop={true}
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // }}
+        pagination={{ clickable: true }} // Optional: Adds pagination dots
+        modules={[Navigation, Pagination, Autoplay]} // Include Autoplay module
         className="mySwiper"
       >
         {swiper?.map((swipItem) => (

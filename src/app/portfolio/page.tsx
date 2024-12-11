@@ -14,10 +14,10 @@ const Portfolio: React.FC<categoryType> = ({ searchParams }) => {
 
   return (
     <>
-      <div className="w-full flex items-center font-bold justify-center bg-primaryGreen text-primaryWhite">
+      <div className="w-full flex flex-wrap items-center justify-center bg-primaryGreen text-primaryWhite font-bold">
         <Link
           href={`/portfolio?category=all`}
-          className={`px-5 py-4 hover:bg-black ${
+          className={`px-4 py-2 m-2 rounded-lg transition-all duration-300 hover:bg-black ${
             category === "all" ? "bg-black" : ""
           }`}
         >
@@ -27,7 +27,7 @@ const Portfolio: React.FC<categoryType> = ({ searchParams }) => {
         {allCategories.map((categoryItem) => (
           <Link
             href={`/portfolio?category=${categoryItem}`}
-            className={`px-5 py-4 hover:bg-black ${
+            className={`px-4 py-2 m-2 rounded-lg transition-all duration-300 hover:bg-black ${
               category === categoryItem ? "bg-black" : ""
             }`} // Add a class if the category matches
             key={categoryItem} // Use categoryItem as the key

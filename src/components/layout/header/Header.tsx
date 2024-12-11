@@ -17,7 +17,9 @@ const Header = () => {
 
       {/* Logo */}
       <div>
-        <Image src={LogoTile} alt="sabzafrang" className="w-40" />
+        <Link href={"/"}>
+          <Image src={LogoTile} alt="sabzafrang" className="w-40" />
+        </Link>
       </div>
 
       {/* PC Navigation */}
