@@ -349,5 +349,8 @@
       "videoThumbnail": "/images/videoThumbnail/alidayi.png",
       "category": "Category 1"
     }
+  ],
+  "photoAlbum":[
+    {}
   ]
 }

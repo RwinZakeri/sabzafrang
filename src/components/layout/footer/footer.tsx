@@ -15,7 +15,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-primaryGreen pt-2 px-2 ">
-      <div className=" md:flex flex-row-reverse w-full justify-between md:items-center container">
+      <div className=" flex md:flex-row-reverse flex-col items-center  w-full justify-between md:items-center container">
         <Image
           src={footerLogo}
           alt="logo"
@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
 
           {/* Google Map */}
-          <div className="mt-6 w-[40%]">
+          <div className="mt-6 mx-auto md:w-[40%] w-[75%] ">
             <iframe
               title="Google Map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.093523993286!2d51.315212!3d35.744072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e04f303abcd4b%3A0xa6e8f887e0da79b4!2sSardar%20Jangal%20St%2C%20Tehran%2C%20Iran!5e0!3m2!1sen!2s!4v1697036409032!5m2!1sen!2s"
