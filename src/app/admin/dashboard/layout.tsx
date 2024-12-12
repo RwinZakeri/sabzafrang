@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/admin/Layout";
 import "../../globals.css";
+import Footer from "@/components/layout/footer/footer";
 
 export default function RootLayout({
   children,
@@ -8,9 +9,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl">
-      <Layout>
-        <body>{children}</body>
-      </Layout>
+      <body>
+        <div>{children}</div>
+      </body>
     </html>
   );
 }
