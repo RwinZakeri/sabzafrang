@@ -24,7 +24,6 @@ const SwiperComponent = () => {
         //   delay: 3000,
         //   disableOnInteraction: false,
         // }}
-        pagination={{ clickable: true }} // Optional: Adds pagination dots
         modules={[Navigation, Pagination, Autoplay]} // Include Autoplay module
         className="mySwiper"
       >
