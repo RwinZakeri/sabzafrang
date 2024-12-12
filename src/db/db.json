@@ -349,5 +349,40 @@
       "videoThumbnail": "/images/videoThumbnail/alidayi.png",
       "category": "Category 1"
     }
+  ],
+  "photoAlbum": [
+    {
+      "id": 1,
+      "title": "نوزدهمین نمایشگاه بین المللی صنعت ساختمان",
+      "images": [
+        "/images/photoAlbum/image1-1.png",
+        "/images/photoAlbum/image1-1.png",
+        "/images/photoAlbum/image1-1.png",
+        "/images/photoAlbum/image1-1.png",
+        "/images/photoAlbum/image1-1.png",
+        "/images/photoAlbum/image1-1.png",
+        "/images/photoAlbum/image1-1.png",
+        "/images/photoAlbum/image1-1.png",
+        "/images/photoAlbum/image1-1.png",
+        "/images/photoAlbum/image1-1.png"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "برگزاری جام رمضان غدیر",
+      "images": [
+        "/images/photoAlbum/image2-1.png",
+        "/images/photoAlbum/image2-1.png",
+        "/images/photoAlbum/image2-1.png",
+        "/images/photoAlbum/image2-1.png",
+        "/images/photoAlbum/image2-1.png",
+        "/images/photoAlbum/image2-1.png",
+        "/images/photoAlbum/image2-1.png",
+        "/images/photoAlbum/image2-1.png",
+        "/images/photoAlbum/image2-1.png",
+        "/images/photoAlbum/image2-1.png"
+
+      ]
+    }
   ]
 }

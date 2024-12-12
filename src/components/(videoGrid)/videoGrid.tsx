@@ -20,14 +20,14 @@ const VideoGrid = ({ latestResume }: { latestResume: VideoItem[] }) => {
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3">
+    <div className="grid grid-cols-1 md:grid-cols-3 ">
       {latestResume?.map((video) => (
         <div
           key={video?.id}
           className=" w-full relative group h-full aspect-w-1 aspect-h-1 cursor-pointer"
           onClick={() => openModal(video)}
         >
-          <div className="w-full h-full text-primaryWhite text-xl flex items-start pt-16 justify-center group-hover:opacity-80 absolute bg-primaryGreen opacity-0">
+          <div className="w-full h-full text-primaryWhite text-xl flex items-start pt-16 transition-all ease-linear justify-center group-hover:opacity-80 absolute bg-primaryGreen opacity-0">
             {video?.title}
           </div>
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
@@ -44,7 +44,7 @@ const VideoGrid = ({ latestResume }: { latestResume: VideoItem[] }) => {
         </div>
       ))}
 
-      <Modal
+      <Modal className="w-[80%] mx-auto my-[100px]"
         isOpen={isModalOpen}
         onRequestClose={closeModal}
         ariaHideApp={false}
@@ -53,7 +53,7 @@ const VideoGrid = ({ latestResume }: { latestResume: VideoItem[] }) => {
           <CloseIcon />{" "}
         </button>
         {selectedVideo && (
-          <div>
+          <div className="w-[50%] mx-auto">
             <video
               controls
               width="100%"
