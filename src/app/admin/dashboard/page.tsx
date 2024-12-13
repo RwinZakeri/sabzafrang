@@ -1,21 +1,9 @@
-"use client";
-
-import { useRouter } from "next/navigation";
-
-const AdminDashboard = () => {
-  const router = useRouter();
-  const isLoggedIn = false;
-
-  if (!isLoggedIn) {
-    router.push("/admin/dashboard/login");
-    return null; // Ensure nothing is rendered while redirecting
-  }
-
+const Dashbaord = () => {
   return (
-    <div className="flex">  
- hello-world
-  </div>  
+    <div>
+      <h1>dashboard</h1>
+    </div>
   );
 };
 
-export default AdminDashboard;
+export default Dashbaord;

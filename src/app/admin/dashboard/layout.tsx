@@ -1,17 +1,15 @@
-import Layout from "@/components/layout/admin/Layout";
-import "../../globals.css";
-import Footer from "@/components/layout/footer/footer";
+import AdminLayout from "@/components/layout/admin/AdminLayout";
 
-export default function RootLayout({
+export default async function DashboardLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+  params: { team: string }; // Adjusted type
+}) {
   return (
-    <html lang="fa" dir="rtl">
-      <body>
-        <div>{children}</div>
-      </body>
-    </html>
+    <AdminLayout>
+      {/* Wrapping the content with AdminLayout */}
+      {children}
+    </AdminLayout>
   );
 }
