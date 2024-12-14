@@ -1,6 +1,7 @@
 "use client";
 
 import UploadFile from "@/assets/icon/svgExporte";
+import { dropDataType } from "@/types/type";
 import FunctionBtn from "@/ui/button/functionBtn";
 import MainInput from "@/ui/input/mainInput";
 import Image from "next/image";
@@ -9,12 +10,12 @@ import Dropzone from "react-dropzone";
 import { toast } from "react-toastify";
 
 const CreateSlide = () => {
-  const [sliderPostData, setSliderPostData] = useState({
+  const [sliderPostData, setSliderPostData] = useState<dropDataType>({
     title: "",
     img: null,
   });
 
-  const droppedHandler = (acceptedFiles) => {
+  const droppedHandler = (acceptedFiles: File[]) => {
     if (acceptedFiles.length > 1) {
       toast.error("حداکثر یک فایل قابل آپلود است");
       return;
@@ -46,10 +47,12 @@ const CreateSlide = () => {
 
     console.log("Posting data:", sliderPostData);
     // Perform your API call here
+    toast.success("با موفقیت ثبت شد");
   };
 
-  // title changeHandler
-  const titleChangeHandler = () => {};
+  const deleteHandler = (id: number) => {
+    console.log(id);
+  };
 
   return (
     <div className="container">
@@ -60,8 +63,8 @@ const CreateSlide = () => {
         name="title"
         placeholder="لطفا alt عکس را وارد کنید"
         value={sliderPostData?.title}
-        onChange={(e) =>
-          setSliderPostData((prev) => ({ ...prev, title: e.target.value }))
+        onChange={(e: React.ChangeEvent<HTMLButtonElement>) =>
+          setSliderPostData((prev) => ({ ...prev, title: e?.target.value }))
         }
       />
 
@@ -103,7 +106,7 @@ const CreateSlide = () => {
         <div className="p-4">
           <FunctionBtn
             title="حذف"
-            onClick={() => toast.info("اسلاید حذف شد")}
+            onClick={(id: number) => deleteHandler(id)}
           />
         </div>
       </div>

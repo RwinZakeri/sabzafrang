@@ -1,6 +1,6 @@
+import db from "@/db/db.json";
 import Image from "next/image";
 import Link from "next/link";
-import db from "@/db/db.json";
 const PhotoComponents = () => {
   const photoAlbum = db.photoAlbum;
   console.log(photoAlbum);
@@ -18,11 +18,9 @@ const PhotoComponents = () => {
               </span>
             </div>
             <div className="flex items-center justify-evenly  gap-y-3 sm:px-0 px-4 flex-wrap">
-              {elem.images.map((item) => {
-                console.log(item);
-                
+              {elem.images.map((item, index) => {
                 return (
-                  <div className=" lg:w-[19%] sm:w-[48%] ">
+                  <div className=" lg:w-[19%] sm:w-[48%] " key={index + 1}>
                     <Link href="">
                       <Image src={item} width={250} height={250} alt="" />
                     </Link>

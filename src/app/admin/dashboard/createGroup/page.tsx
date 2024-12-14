@@ -3,6 +3,11 @@ import FunctionBtn from "@/ui/button/functionBtn";
 import MainInput from "@/ui/input/mainInput";
 import { useState } from "react";
 import Select from "react-select";
+import { toast } from "react-toastify";
+
+interface CreateGroup {
+  title: string;
+}
 
 const CreateGroup = () => {
   const options = [
@@ -14,10 +19,37 @@ const CreateGroup = () => {
     { value: "vanilla", label: "Vanilla" },
   ];
 
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState<CreateGroup>({
+    title: "",
+  });
 
+  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(e.target.value);
+    setSelectedOption({ title: e.target.value });
+  };
   const postData = () => {
-    console.log("deleted");
+    if (selectedOption.title.length < 1) {
+      toast.error("باید نام گروه را وارد کنید");
+      return;
+    }
+
+    if (
+      options.find((item) => {
+        if (item.value === selectedOption.title) {
+          return true;
+        }
+      })
+    ) {
+      toast.error("گروه قبلا ثبت گردیده");
+
+      return;
+    }
+
+    toast.success("گروه با موفقیت اضافه شد");
+  };
+
+  const deleteHandler = (id: number) => {
+    console.log(id);
   };
 
   return (
@@ -28,16 +60,20 @@ const CreateGroup = () => {
           label="ایجاد گروه"
           name="title"
           placeholder="لطفا نام گروه را وارد کنید"
+          value={selectedOption.title}
+          onChange={onChange}
         />
         <div className="my-8">
-          <FunctionBtn title="ثبت" postData={postData} />
+          <FunctionBtn title="ثبت" onClick={postData} />
         </div>
         <div className="w-1/3">
           <p className="font-bold text-2xl my-2">گروه های موجود</p>
 
           <Select
             value={selectedOption} // Ensure the state is used here
+            // @ts-expect-error is just for build
             onChange={setSelectedOption}
+            // @ts-expect-error is just for build
             options={options}
             placeholder="یک گزینه انتخاب کنید"
             className="react-select-container"
@@ -54,7 +90,10 @@ const CreateGroup = () => {
               className="bg-primaryGreen items-center justify-center flex text-primaryWhite rounded-full"
             >
               <p className="p-2">{item.label}</p>
-              <FunctionBtn title="حذف" postData={postData} />
+              <FunctionBtn
+                title="حذف"
+                onClick={(id: number) => deleteHandler(id)}
+              />
             </div>
           );
         })}

@@ -49,10 +49,16 @@ export interface VideoItem {
 // Adjust to accept an array of VideoItem directly
 export type LatestResumeData = VideoItem[];
 
-
 // category
 export interface categoryType {
   searchParams: {
     category: string;
   };
+}
+
+// drop data
+export interface dropDataType {
+  title: string;
+  img: File | null;
+  group?: string;
 }

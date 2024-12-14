@@ -32,7 +32,7 @@ const LoginForm = () => {
 
     setUserForm(updatedForm);
     console.log("Form submitted:", updatedForm);
-
+    console.log(userForm);
     // Navigate to the dashboard
     router.push("/admin/dashboard");
   };
