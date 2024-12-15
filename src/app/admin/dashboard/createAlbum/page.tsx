@@ -6,14 +6,11 @@ import FunctionBtn from "@/ui/button/functionBtn";
 import MainInput from "@/ui/input/mainInput";
 import { useState } from "react";
 import Dropzone from "react-dropzone";
-import Select from "react-select";
+import Select, { SingleValue } from "react-select";
 import { toast } from "react-toastify";
 
 const CreateAlbum = () => {
   const options = [
-    { value: "chocolate", label: "Chocolate" },
-    { value: "strawberry", label: "Strawberry" },
-    { value: "vanilla", label: "Vanilla" },
     { value: "chocolate", label: "Chocolate" },
     { value: "strawberry", label: "Strawberry" },
     { value: "vanilla", label: "Vanilla" },
@@ -24,9 +21,11 @@ const CreateAlbum = () => {
     img: null,
     group: "",
   });
+
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setCreateAlbumData((prev) => ({ ...prev, title: e.target.value }));
   };
+
   const droppedHandler = (acceptedFiles: File[]) => {
     if (acceptedFiles.length > 1) {
       toast.error("حداکثر یک فایل قابل آپلود است");
@@ -47,20 +46,53 @@ const CreateAlbum = () => {
     }));
   };
 
+  const handleSelectChange = (
+    selectedOption: SingleValue<{ value: string; label: string }>
+  ) => {
+    setCreateAlbumData((prev) => ({
+      ...prev,
+      group: selectedOption ? selectedOption.value : "",
+    }));
+  };
+
+  const validateForm = () => {
+    // Check if all fields are filled
+    if (!createAlbumData.title) {
+      toast.error("لطفا عنوان آلبوم را وارد کنید");
+      return false;
+    }
+
+    if (!createAlbumData.group) {
+      toast.error("لطفا گروه را انتخاب کنید");
+      return false;
+    }
+
+    if (!createAlbumData.img) {
+      toast.error("لطفا یک تصویر برای آلبوم آپلود کنید");
+      return false;
+    }
+
+    return true;
+  };
+
   const postData = () => {
+    if (!validateForm()) {
+      return;
+    }
+
+    // If validation passes, you can proceed with the post request
     console.log(createAlbumData);
     setCreateAlbumData({ title: "", group: "", img: null });
     toast.success("البوم اضافه شد");
   };
+
   return (
     <div>
       <p className="font-bold text-2xl mb-4">ایجاد البوم</p>
       <p className="py-2 text-primaryGreen">انتخاب گروه</p>
       <Select
-        value={createAlbumData.group} // Ensure the state is used here
-        // @ts-expect-error is just for build
-        onChange={setCreateAlbumData}
-        // @ts-expect-error is just for build
+        value={options.find((option) => option.value === createAlbumData.group)}
+        onChange={handleSelectChange}
         options={options}
         placeholder="یک گزینه انتخاب کنید"
         className="react-select-container"
@@ -93,7 +125,7 @@ const CreateAlbum = () => {
       </Dropzone>
       <div className="my-4">
         <FunctionBtn title="ثبت" onClick={postData} />
-      </div>{" "}
+      </div>
     </div>
   );
 };

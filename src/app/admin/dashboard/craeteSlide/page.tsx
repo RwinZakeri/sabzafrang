@@ -44,7 +44,6 @@ const CreateSlide = () => {
       toast.error("لطفا عنوان را وارد کنید");
       return;
     }
-
     console.log("Posting data:", sliderPostData);
     // Perform your API call here
     toast.success("با موفقیت ثبت شد");
