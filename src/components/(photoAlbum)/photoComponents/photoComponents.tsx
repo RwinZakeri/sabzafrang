@@ -7,9 +7,9 @@ const PhotoComponents = () => {
 
   return (
     <div className="">
-      {photoAlbum?.map((elem) => {
+      {photoAlbum?.map((elem,index) => {
         return (
-          <>
+          <div key={index + 1}>
             <div className="flex py-5 mx-3">
               <span className="flex items-center flex-grow-[1] before:border  before:flex-grow-[1] before:ml-[15px] before:inline-block before:border-[#17AA8F] before:h-0 after:h-0 after:border after:border-[#17AA8F] after:flex-grow-[1] after:mr-[15px]  after:inline-block">
                 <h4 className="lg:w-[30%] md:w-[40%]   text-center  ">
@@ -17,18 +17,24 @@ const PhotoComponents = () => {
                 </h4>
               </span>
             </div>
-            <div className="flex items-center justify-evenly  gap-y-3 sm:px-0 px-4 flex-wrap">
+            <div className="flex items-center justify-evenly  gap-y-3 sm:px-0 px-4 flex-wrap mb-[50px]">
               {elem.images.map((item, index) => {
                 return (
                   <div className=" lg:w-[19%] sm:w-[48%] " key={index + 1}>
                     <Link href="">
-                      <Image src={item} width={250} height={250} alt="" />
+                      <Image
+                        src={item}
+                        className="max-w-full"
+                        width={500}
+                        height={500}
+                        alt=""
+                      />
                     </Link>
                   </div>
                 );
               })}
             </div>
-          </>
+          </div>
         );
       })}
 
