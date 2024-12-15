@@ -62,6 +62,17 @@ const AdminLayout = ({ children }: { children: ReactNode }) => {
                   ایجاد البوم
                 </Link>
               </li>
+              <li>
+                <Link
+                  className={`w-full px-2 py-2 text-lg hover:text-primaryWhite ${
+                    path.split("/")[3] === "createResume" &&
+                    "bg-[#297e6d] text-primaryWhite"
+                  } hover:bg-[#297e6d] block`}
+                  href={"/admin/dashboard/createResume"}
+                >
+                  ایجاد رزمه
+                </Link>
+              </li>
             </ul>
           </nav>
         </aside>
